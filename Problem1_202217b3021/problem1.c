@@ -111,7 +111,6 @@ void search()
 		else
 		{
 			printf("Value %d is not in the list::", e);
-			continue;
 		}
 	}
 }
