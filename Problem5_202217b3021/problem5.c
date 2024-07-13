@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 
 #define n 5
@@ -33,7 +32,7 @@ void main()
 					printf("\n Queue is empty");
 				}
 				else
-				{ 
+				{
 					printf("\n Deleted Element is %d",queue[front++]); 					x++;
 				}
 				break;
@@ -58,5 +57,5 @@ void main()
 					printf("Wrong Choice: please see the options");
 		}
 	}
-	getch();
+	getchar();
 }
